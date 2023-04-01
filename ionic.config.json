@@ -1,0 +1,7 @@
+{
+  "name": "Apresentacao_de_localidade",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
