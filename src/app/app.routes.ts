@@ -12,15 +12,15 @@ export const routes: Routes = [
       import('./folder/folder.page').then((m) => m.FolderPage),
   },
   {
-    path: 'apresentacao-pessoal',
-    loadComponent: () => import('./apresentacao-pessoal/apresentacao-pessoal.page').then( m => m.ApresentacaoPessoalPage)
-  },
-  {
     path: 'apresentacao-localidade',
     loadComponent: () => import('./apresentacao-localidade/apresentacao-localidade.page').then( m => m.ApresentacaoLocalidadePage)
   },
   {
     path: 'inicial',
     loadComponent: () => import('./inicial/inicial.page').then( m => m.InicialPage)
+  },
+  {
+    path: 'turistico',
+    loadComponent: () => import('./turistico/turistico.page').then( m => m.TuristicoPage)
   },
 ];

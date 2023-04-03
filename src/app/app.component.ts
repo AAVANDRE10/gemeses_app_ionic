@@ -13,16 +13,13 @@ export class AppComponent {
   constructor(private navCtrl: NavController, private menuCtrl: MenuController) {
 
   }
-
-  verApresentacao_Pessoal() {
-    
-    this.navCtrl.navigateForward('apresentacao-pessoal');
-    this.menuCtrl.toggle();
-  }
-
   verApresentacao_Localidade() {
     
     this.navCtrl.navigateForward('apresentacao-localidade');
+    this.menuCtrl.toggle();
+  }
+  verIniciar() {
+    this.navCtrl.navigateForward('inicial');
     this.menuCtrl.toggle();
   }
 }

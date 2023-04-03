@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ponto Turístico</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <h4 class="subtitulo"> Barca do Lago</h4>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-img src="assets/pontoTuristico3.jpg" (click)="proximaImagem()"></ion-img>
+      </ion-col>
+      <ion-col size="6">
+        <ion-img src="assets/pontoTuristico.jpg" (click)="proximaImagem()"></ion-img>
+      </ion-col>
+    </ion-row>
+        <ion-img src="assets/pontoTuristico2.jpg" (click)="proximaImagem()"></ion-img>
+  </ion-grid>
+
+  <div style="padding: 20px;">  
+    <ion-text>
+      <p>A barca do lago, era um dos locais de passagem do rio desde os tempos romanos em que se conseguia fazer a travessia a pé.</p> 
+      <p>Segundo a lenda, foi num rede de pesca em que foi encontrado uma imagem de Nossa Senhora em que foi dado o nome de "Nossa Senhora do Lago". Ergueu-se também uma Capela na margem do rio.</p>
+      <p>É neste local em que se faz a festa de aldeia que decorre todos os anos no 1º Fim de semana de Agosto.</p>
+    </ion-text>
+</div>
+</ion-content>

@@ -1,6 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Apresentação Localidade</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -10,4 +12,11 @@
       <ion-title size="default">Apresentação Localidade</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-button expand="block" color="primary" (click)="turistico()">Pontos de interesse turísticos</ion-button>
+  <ion-button expand="block" color="primary" (click)="personalidades()">Personalidades</ion-button>
+  <ion-button expand="block" color="primary" (click)="clubesDesportivos()">Clubes desportivos</ion-button>
+  <ion-button expand="block" color="primary" (click)="informacoes()">informações de caraterização</ion-button>
+  
+
 </ion-content>
