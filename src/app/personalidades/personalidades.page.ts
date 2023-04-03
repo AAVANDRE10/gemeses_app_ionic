@@ -4,17 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
-  selector: 'app-turistico',
-  templateUrl: './turistico.page.html',
-  styleUrls: ['./turistico.page.scss'],
+  selector: 'app-personalidades',
+  templateUrl: './personalidades.page.html',
+  styleUrls: ['./personalidades.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class TuristicoPage implements OnInit {
+export class PersonalidadesPage implements OnInit {
 
   constructor() { }
-
-  imagens = ['assets/pontoTuristico.jpg', 'assets/pontoTuristico2.jpg'];
+  imagens = ['assets/paulo_goncalves.jpg', 'assets/paulogoncalves2.jpg'];
   indiceAtual = 0;
 
   proximaImagem() {
