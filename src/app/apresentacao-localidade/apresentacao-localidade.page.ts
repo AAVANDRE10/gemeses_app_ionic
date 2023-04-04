@@ -23,7 +23,7 @@ export class ApresentacaoLocalidadePage implements OnInit {
   }
 
   clubesDesportivos(){
-    this.navCtrl.navigateForward('clubesDesportivos');
+    this.navCtrl.navigateForward('clubes-desportivos');
   }
 
   informacoes(){

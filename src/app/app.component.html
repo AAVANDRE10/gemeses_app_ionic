@@ -1,8 +1,6 @@
 <ion-app>
-  <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
-        <ion-list id="inbox-list">
           <ion-list-header>Menu</ion-list-header>
           <ion-note>
             <ion-icon slot="start" name="mail-outline"></ion-icon>
@@ -22,10 +20,8 @@
           <ion-item class="Sair" color="transparent" (click)="verIniciar()"style="margin-top: auto;">
           <ion-icon name="log-out-outline" slot="start"></ion-icon>
           Sair
-          </ion-item>       
-        </ion-list>
+          </ion-item>
       </ion-content>     
     </ion-menu>
   <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
 </ion-app>
