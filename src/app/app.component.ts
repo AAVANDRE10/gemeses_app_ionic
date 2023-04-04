@@ -14,8 +14,11 @@ export class AppComponent {
 
   }
   verApresentacao_Localidade() {
-    
     this.navCtrl.navigateForward('apresentacao-localidade');
+    this.menuCtrl.toggle();
+  }
+  verOutrasInformacoes() {
+    this.navCtrl.navigateForward('outras-informacoes');
     this.menuCtrl.toggle();
   }
   verIniciar() {

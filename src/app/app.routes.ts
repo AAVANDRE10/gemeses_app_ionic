@@ -35,4 +35,8 @@ export const routes: Routes = [
     path: 'informacoes-caracterizacao',
     loadComponent: () => import('./informacoes-caracterizacao/informacoes-caracterizacao.page').then( m => m.InformacoesCaracterizacaoPage)
   },
+  {
+    path: 'outras-informacoes',
+    loadComponent: () => import('./outras-informacoes/outras-informacoes.page').then( m => m.OutrasInformacoesPage)
+  },
 ];
