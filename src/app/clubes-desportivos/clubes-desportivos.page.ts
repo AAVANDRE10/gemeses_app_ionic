@@ -13,6 +13,15 @@ import { IonicModule } from '@ionic/angular';
 export class ClubesDesportivosPage implements OnInit {
 
   constructor() { }
+  imagens = ['assets/GCDR.jpeg', 'assets/GCDR2.jpg'];
+  indiceAtual = 0;
+
+  proximaImagem() {
+    this.indiceAtual++;
+    if (this.indiceAtual >= this.imagens.length) {
+      this.indiceAtual = 0;
+    }
+  }
 
   ngOnInit() {
   }
