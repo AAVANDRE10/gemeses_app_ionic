@@ -31,4 +31,8 @@ export const routes: Routes = [
     path: 'clubes-desportivos',
     loadComponent: () => import('./clubes-desportivos/clubes-desportivos.page').then( m => m.ClubesDesportivosPage)
   },
+  {
+    path: 'informacoes-caracterizacao',
+    loadComponent: () => import('./informacoes-caracterizacao/informacoes-caracterizacao.page').then( m => m.InformacoesCaracterizacaoPage)
+  },
 ];

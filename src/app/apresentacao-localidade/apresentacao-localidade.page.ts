@@ -26,8 +26,8 @@ export class ApresentacaoLocalidadePage implements OnInit {
     this.navCtrl.navigateForward('clubes-desportivos');
   }
 
-  informacoes(){
-    this.navCtrl.navigateForward('informacoes');
+  informacoesCaracterizacao(){
+    this.navCtrl.navigateForward('informacoes-caracterizacao');
   }
   
   ngOnInit() {
