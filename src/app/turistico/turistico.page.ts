@@ -14,16 +14,6 @@ export class TuristicoPage implements OnInit {
 
   constructor() { }
 
-  imagens = ['assets/pontoTuristico.jpg', 'assets/pontoTuristico2.jpg'];
-  indiceAtual = 0;
-
-  proximaImagem() {
-    this.indiceAtual++;
-    if (this.indiceAtual >= this.imagens.length) {
-      this.indiceAtual = 0;
-    }
-  }
-
   ngOnInit() {
   }
 

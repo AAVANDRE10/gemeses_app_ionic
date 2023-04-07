@@ -13,15 +13,6 @@ import { IonicModule } from '@ionic/angular';
 export class PersonalidadesPage implements OnInit {
 
   constructor() { }
-  imagens = ['assets/paulo_goncalves.jpg', 'assets/paulogoncalves2.jpg'];
-  indiceAtual = 0;
-
-  proximaImagem() {
-    this.indiceAtual++;
-    if (this.indiceAtual >= this.imagens.length) {
-      this.indiceAtual = 0;
-    }
-  }
 
   ngOnInit() {
   }
